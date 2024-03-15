@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:32 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="90.00" end="179.00" ego="veh86" foe="veh88">
+        <minTTC time="107.00" position="116.36,1.66" type="3" value="1.25" speed="0.97"/>
+        <maxDRAC time="106.00" position="117.31,1.66" type="3" value="2.85" speed="2.24"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="107.00" position="116.36,1.66" type="3" value="12.06" speed="0.97"/>
+    </conflict>
+    <conflict begin="101.00" end="179.00" ego="veh86" foe="veh74">
+        <minTTC time="103.00" position="102.64,1.67" type="2" value="2.63" speed="11.34"/>
+        <maxDRAC time="103.00" position="102.64,1.67" type="2" value="1.91" speed="11.34"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="103.00" position="102.64,1.67" type="2" value="3.09" speed="11.34"/>
+    </conflict>
+    <conflict begin="101.00" end="179.00" ego="veh86" foe="veh79">
+        <minTTC time="105.00" position="108.92,1.67" type="2" value="1.26" speed="6.07"/>
+        <maxDRAC time="102.00" position="114.18,1.66" type="2" value="2.94" speed="13.76"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="105.00" position="108.92,1.67" type="2" value="8.92" speed="6.07"/>
+    </conflict>
+    <conflict begin="106.00" end="179.00" ego="veh86" foe="veh90">
+        <minTTC time="108.00" position="115.16,1.66" type="3" value="2.56" speed="1.23"/>
+        <maxDRAC time="107.00" position="116.36,1.66" type="3" value="2.16" speed="0.97"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="107.00" position="116.36,1.66" type="3" value="3.39" speed="0.97"/>
+    </conflict>
+    <globalMeasures ego="veh86">
+        <timeSpan values="87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00 98.00 99.00 100.00 101.00 102.00 103.00 104.00 105.00 106.00 107.00 108.00 109.00 110.00 111.00 112.00 113.00 114.00 115.00 116.00 117.00 118.00 119.00 120.00 121.00 122.00 123.00 124.00 125.00 126.00 127.00 128.00 129.00 130.00 131.00 132.00 133.00 134.00 135.00 136.00 137.00 138.00 139.00 140.00 141.00 142.00 143.00 144.00 145.00 146.00 147.00 148.00 149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.12 0.17 0.00 0.94 0.00 0.00 0.03 2.42 3.17 2.10 3.83 1.27 0.00 0.00 2.04 0.00 0.75 0.00 0.00 0.40 0.49 0.48 0.00 0.26 0.38 0.00 0.10 0.00 0.00 0.00 0.06 0.00 0.00 0.00 0.00 0.56 0.53 0.39 0.05 0.00 0.14 0.00 0.01 0.01 0.00 0.00 0.00 0.00 0.00 0.98 0.00 1.04 1.18 0.60 0.38 0.41 0.00 0.00 0.00 0.00 0.00 0.62 0.00 0.22 0.00 1.78 0.61 0.00 0.00 0.00 0.00 0.35 0.00 1.11 2.17 0.49 0.09 0.00 0.36 0.00 0.00 0.00 0.16 1.70"/>
+        <maxBR time="106.00" position="112.43,1.66" value="3.83"/>
+        <SGAPSpan values="26.62 37.51 47.77 55.53 62.78 67.95 70.68 71.01 70.17 70.94 70.88 66.89 61.24 51.35 38.38 26.01 17.01 10.47 5.84 4.37 4.49 6.36 3.80 4.64 3.79 4.69 4.44 4.29 3.51 3.11 3.47 3.19 2.82 2.88 2.75 2.75 2.71 2.93 2.75 3.11 3.62 4.61 4.19 3.67 3.17 2.81 2.76 2.67 2.53 2.54 2.52 2.51 2.59 2.90 4.57 6.78 8.45 7.33 6.45 6.20 4.48 3.73 3.29 2.89 2.97 3.27 3.77 3.84 5.02 4.52 4.73 4.52 6.06 4.68 3.71 3.65 5.09 6.56 6.75 6.32 7.60 5.93 3.60 3.22 3.15 3.05 2.78 2.89 3.46 5.05 4.61 3.01 2.78"/>
+        <minSGAP time="138.00" position="87.84,1.67" value="2.51" leader="veh79"/>
+        <TGAPSpan values="NA 21.57 11.59 8.93 8.17 7.29 6.52 5.43 5.30 5.41 5.47 4.91 4.82 3.93 2.78 1.89 1.50 1.28 0.96 1.95 4.62 5.15 1.15 3.65 2.05 4.26 3.00 2.43 2.56 3.51 8.63 3.95 5.16 17.04 11.00 18.79 18.80 16.56 10.39 14.89 6.46 5.12 3.00 2.18 2.81 4.67 13.34 17.36 16.58 164.42 83.54 151.38 535.51 40.76 18.92 5.80 3.12 1.52 1.67 1.59 1.57 2.22 3.05 4.13 10.17 7.29 5.50 4.46 5.70 2.46 3.88 2.97 4.64 1.46 2.60 4.49 4.91 3.70 2.03 1.59 2.09 1.40 1.15 3.33 6.63 8.00 5.03 15.28 13.40 5.78 2.05 1.44 7.18"/>
+        <minTGAP time="105.00" position="114.62,1.66" value="0.96" leader="veh79"/>
+    </globalMeasures>
+</SSMLog>

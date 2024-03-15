@@ -1,0 +1,50 @@
+2024-03-13 15:48:52,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 15:48:52,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 15:48:52,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 15:48:52,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 15:48:52,068 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "entering"}
+2024-03-13 15:48:52,068 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "entering"}
+2024-03-13 15:48:52,068 INFO on_connect(17) Connected with result code 0
+2024-03-13 15:48:52,068 INFO on_connect(17) Connected with result code 0
+2024-03-13 15:48:53,069 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "leaving"}
+2024-03-13 15:48:53,071 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle1", "status": "leaving"}'
+2024-03-13 15:48:53,069 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "leaving"}
+2024-03-13 15:48:53,071 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle1", "status": "leaving"}'
+2024-03-13 15:48:53,071 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "entering"}
+2024-03-13 15:48:53,071 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "entering"}
+2024-03-13 15:48:53,073 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle2", "status": "entering"}'
+2024-03-13 15:48:53,073 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle2", "status": "entering"}'
+2024-03-13 15:48:54,074 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "leaving"}
+2024-03-13 15:48:54,074 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "leaving"}
+2024-03-13 16:03:01,088 INFO on_connect(17) Connected with result code 0
+2024-03-13 16:03:01,088 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:12:08,939 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:12:08,939 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:17:32,291 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:17:32,291 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:17:32,291 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:17:32,291 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:18:17,233 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:18:17,233 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:18:17,233 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:18:17,233 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:18:17,233 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:18:17,233 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:19:20,066 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:19:20,066 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "approaching"}
+2024-03-13 17:19:20,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:19:20,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "approaching"}
+2024-03-13 17:19:20,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "entering"}
+2024-03-13 17:19:20,067 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "entering"}
+2024-03-13 17:19:20,067 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:19:20,067 INFO on_connect(17) Connected with result code 0
+2024-03-13 17:19:21,069 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "leaving"}
+2024-03-13 17:19:21,069 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle1", "status": "leaving"}
+2024-03-13 17:19:21,071 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle1", "status": "leaving"}'
+2024-03-13 17:19:21,071 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle1", "status": "leaving"}'
+2024-03-13 17:19:21,072 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "entering"}
+2024-03-13 17:19:21,072 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "entering"}
+2024-03-13 17:19:21,074 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle2", "status": "entering"}'
+2024-03-13 17:19:21,074 INFO on_message(22) /vehicles/intersection b'{"vehicle_id": "Vehicle2", "status": "entering"}'
+2024-03-13 17:19:22,076 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "leaving"}
+2024-03-13 17:19:22,076 INFO send_message(32) send the bsm message:{"vehicle_id": "Vehicle2", "status": "leaving"}

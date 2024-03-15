@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 16:33:08 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="51565"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh28">
+        <timeSpan values="29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.61 0.00 0.24 0.00 0.00 0.38 0.74 0.00 0.56 0.00 0.65 0.00 0.76 0.00 3.37 2.72 0.67 0.00 0.00 0.00 0.00 0.00 0.38 0.00 0.20 0.11 0.71 0.00 0.87 0.69 0.47 1.01 1.42 0.00 0.40 0.00 1.20 0.00 0.00"/>
+        <maxBR time="52.00" position="1.60,-7.26" value="3.37"/>
+        <SGAPSpan values="51.05 61.74 70.30 76.59 81.56 84.80 86.97 86.98 85.72 83.92 82.15 80.88 78.79 76.69 75.21 74.51 72.17 70.62 66.17 NA NA NA NA 57.26 59.22 61.99 63.62 62.71 59.79 55.82 51.99 48.78 43.73 40.00 36.19 32.99 28.02 24.33 21.87 19.53 17.59 18.35 17.61 17.68 16.65 17.01 NA NA"/>
+        <minSGAP time="73.00" position="-263.96,1.60" value="16.65" leader="veh9"/>
+        <TGAPSpan values="NA 25.46 14.01 10.94 9.66 8.65 7.52 6.19 5.60 5.71 5.50 5.50 5.21 4.91 4.93 5.14 4.74 4.82 4.34 NA NA NA NA 4.95 6.69 7.58 6.47 5.43 4.32 3.61 3.36 3.23 2.79 2.58 2.35 2.25 1.80 1.65 1.56 1.44 1.40 1.65 1.44 1.50 1.36 1.55 NA NA"/>
+        <minTGAP time="73.00" position="-263.96,1.60" value="1.36" leader="veh9"/>
+    </globalMeasures>
+</SSMLog>

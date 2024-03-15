@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 16:33:08 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="51565"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh13">
+        <timeSpan values="14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.02 0.45 0.00 0.15 0.54 0.00 0.02 0.07 0.55 0.03 0.00 0.00 0.85 1.32 4.50 3.60 3.95 1.13 0.13 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.08 0.54 0.00 1.18 0.07 0.00 0.00 0.75 0.34 0.00 0.00 0.21 0.14 0.15 0.18"/>
+        <maxBR time="37.00" position="1.60,-12.39" value="4.50"/>
+        <SGAPSpan values="89.61 101.23 111.09 118.47 124.83 128.38 130.39 131.30 130.91 130.19 129.83 128.57 127.24 126.45 125.45 NA NA NA NA NA NA NA NA NA NA NA NA 212.05 224.39 233.98 241.34 246.91 249.93 252.15 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="14.00" position="1.60,-295.02" value="89.61" leader="veh3"/>
+        <TGAPSpan values="NA 44.22 24.10 18.55 15.65 12.36 10.67 9.35 8.79 8.75 9.00 8.41 8.41 8.66 8.21 NA NA NA NA NA NA NA NA NA NA NA NA 6028.60 120.56 58.91 37.46 27.77 23.80 21.36 NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="28.00" position="1.60,-136.50" value="8.21" leader="veh3"/>
+    </globalMeasures>
+</SSMLog>

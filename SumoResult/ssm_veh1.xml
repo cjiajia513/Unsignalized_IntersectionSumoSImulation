@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:32 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh1">
+        <timeSpan values="2.00 3.00 4.00 5.00 6.00 7.00 8.00 9.00 10.00 11.00 12.00 13.00 14.00 15.00 16.00 17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.55 0.00 0.04 0.37 0.06 0.00 0.13 0.00 0.00 0.85 0.30 0.00 0.00 0.39 0.00 0.54 0.07 0.00 0.00 2.25 4.06 0.35 0.00 0.00 0.00 0.00 0.00 0.94 0.00 0.00 1.02 0.23 0.00 0.05 0.00 0.05 0.00 0.96 0.00 0.00 0.74 0.00 0.53 0.00 0.00 0.25 0.00"/>
+        <maxBR time="30.00" position="2.13,0.40" value="4.06"/>
+        <SGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 12.52 20.57 29.11 35.75 40.77 44.78 47.52 49.21 51.44 52.39 53.57 55.81 58.47 61.27 63.68 65.02 66.29 67.12 69.50 71.86 74.01 NA NA NA NA NA NA NA"/>
+        <minSGAP time="29.00" position="8.56,1.70" value="12.52" leader="veh3"/>
+        <TGAPSpan values="NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA NA 1.16 3.07 4.58 4.75 4.43 4.19 3.99 3.80 4.28 4.05 4.12 4.66 4.98 5.01 5.23 5.12 5.23 5.19 5.81 5.89 5.90 NA NA NA NA NA NA NA"/>
+        <minTGAP time="29.00" position="8.56,1.70" value="1.16" leader="veh3"/>
+    </globalMeasures>
+</SSMLog>

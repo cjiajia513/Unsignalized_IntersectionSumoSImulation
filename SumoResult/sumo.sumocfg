@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="intersection.net.xml"/> <!-- 交叉路口的路网文件 -->
+        <route-files value="intersection.rou.xml"/> <!-- 空的路由文件 -->
+        <!-- 如果需要，还可以包括其他文件如附加文件 -->
+    </input>
+    <time>
+        <begin value="0"/>  <!-- 仿真开始时间 -->
+        <end value="3600"/> <!-- 仿真结束时间，如果需要无限循环可以不设置 -->
+    </time>
+    <!-- 其他仿真参数设置 -->
+</configuration>

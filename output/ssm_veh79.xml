@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 16:33:08 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="51565"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh79">
+        <timeSpan values="80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00 97.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 1.11 0.00 0.00 0.00 0.41 0.00 0.37 0.00 0.61"/>
+        <maxBR time="89.00" position="-1.60,211.19" value="1.11"/>
+        <SGAPSpan values="66.23 76.38 83.53 88.94 91.99 94.11 94.10 92.62 90.08 88.47 85.87 84.03 81.62 79.89 73.95 64.43 51.87 41.33"/>
+        <minSGAP time="97.00" position="-1.60,98.78" value="41.33" leader="veh66"/>
+        <TGAPSpan values="NA 40.14 19.88 14.34 10.80 9.43 7.53 6.69 6.03 6.39 6.06 5.88 5.65 5.69 4.96 4.43 3.52 2.93"/>
+        <minTGAP time="97.00" position="-1.60,98.78" value="2.93" leader="veh66"/>
+    </globalMeasures>
+</SSMLog>

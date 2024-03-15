@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:32 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh40">
+        <timeSpan values="41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00 73.00 74.00 75.00 76.00 77.00 78.00 79.00 80.00 81.00 82.00 83.00 84.00 85.00 86.00 87.00 88.00 89.00 90.00 91.00 92.00 93.00 94.00 95.00 96.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.49 0.00 0.00 0.00 0.05 0.24 0.14 0.20 0.00 0.71 0.01 0.00 0.60 0.12 0.00 1.55 4.50 4.50 3.40 0.01 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.63 0.00 0.00 0.12 0.26 0.00 0.86 0.08 0.00 0.00 0.10 0.08 0.06 0.28 0.00 0.00 0.91 0.13"/>
+        <maxBR time="66.00" position="-1.60,9.40" value="4.50"/>
+        <SGAPSpan values="22.49 31.51 40.57 48.32 54.50 59.21 62.24 62.73 62.24 62.23 62.53 62.90 62.48 62.50 62.34 62.73 63.02 62.62 62.62 62.29 NA NA NA NA NA NA NA NA NA NA 121.81 128.47 133.22 136.97 137.77 136.64 134.34 131.64 129.55 127.41 124.55 120.92 118.15 115.30 112.88 109.96 106.84 104.02 NA NA NA NA NA NA NA NA"/>
+        <minSGAP time="41.00" position="-1.60,295.02" value="22.49" leader="veh35"/>
+        <TGAPSpan values="NA 14.72 9.27 8.51 7.23 6.31 5.66 4.72 4.53 4.69 4.62 4.57 4.43 4.45 4.52 4.59 4.68 4.46 4.69 4.67 NA NA NA NA NA NA NA NA NA NA 75.22 33.96 23.17 18.10 14.15 11.73 9.85 9.63 9.93 9.69 8.86 8.68 8.64 8.11 8.45 8.29 8.01 7.62 NA NA NA NA NA NA NA NA"/>
+        <minTGAP time="53.00" position="-1.60,176.20" value="4.43" leader="veh35"/>
+    </globalMeasures>
+</SSMLog>

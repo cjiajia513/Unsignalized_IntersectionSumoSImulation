@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:34 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="149.00" end="179.00" ego="veh148" foe="veh138">
+        <minTTC time="155.00" position="226.93,1.62" type="2" value="2.16" speed="11.92"/>
+        <maxDRAC time="155.00" position="226.93,1.62" type="2" value="2.67" speed="11.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="155.00" position="226.93,1.62" type="2" value="4.97" speed="11.92"/>
+    </conflict>
+    <conflict begin="149.00" end="179.00" ego="veh148" foe="veh142">
+        <minTTC time="157.00" position="233.92,1.62" type="2" value="0.90" speed="5.57"/>
+        <maxDRAC time="157.00" position="233.92,1.62" type="2" value="2.82" speed="5.57"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="155.00" position="237.53,1.62" type="2" value="2.38" speed="11.92"/>
+    </conflict>
+    <conflict begin="154.00" end="179.00" ego="veh148" foe="veh137">
+        <minTTC time="155.00" position="218.72,1.63" type="2" value="2.93" speed="11.92"/>
+        <maxDRAC time="155.00" position="218.72,1.63" type="2" value="1.94" speed="11.92"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="155.00" position="218.72,1.63" type="2" value="2.94" speed="11.92"/>
+    </conflict>
+    <conflict begin="160.00" end="179.00" ego="veh148" foe="veh155">
+        <minTTC time="165.00" position="238.67,1.62" type="3" value="0.88" speed="0.45"/>
+        <maxDRAC time="164.00" position="239.12,1.62" type="3" value="4.22" speed="0.38"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="164.00" position="239.12,1.62" type="3" value="19.90" speed="0.38"/>
+    </conflict>
+    <globalMeasures ego="veh148">
+        <timeSpan values="149.00 150.00 151.00 152.00 153.00 154.00 155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 4.35 1.99 3.95 0.89 0.09 0.33 0.02 0.06 0.00 0.00 0.00 0.00 0.00 1.95 0.00 0.05 1.73 0.00 0.34 0.00 0.00 1.11 0.05 0.00"/>
+        <maxBR time="156.00" position="243.79,1.62" value="4.35"/>
+        <SGAPSpan values="4.49 9.28 13.97 17.96 21.42 20.08 13.97 9.59 4.53 3.41 3.41 2.96 2.86 2.88 2.92 2.97 4.21 5.78 6.16 4.59 6.54 5.57 4.39 4.47 4.76 4.70 4.33 3.43 3.36 3.78 4.03"/>
+        <minSGAP time="161.00" position="235.12,1.62" value="2.86" leader="veh142"/>
+        <TGAPSpan values="NA 4.62 3.05 2.64 2.45 1.84 1.17 1.27 0.81 2.11 4.65 4.62 9.17 9.82 12.44 7.76 9.26 6.60 2.13 1.33 4.31 1.80 1.44 3.39 3.22 4.15 3.29 2.07 6.19 7.67 3.88"/>
+        <minTGAP time="157.00" position="238.35,1.62" value="0.81" leader="veh142"/>
+    </globalMeasures>
+</SSMLog>

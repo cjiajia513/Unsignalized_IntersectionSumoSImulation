@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:32 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <globalMeasures ego="veh16">
+        <timeSpan values="17.00 18.00 19.00 20.00 21.00 22.00 23.00 24.00 25.00 26.00 27.00 28.00 29.00 30.00 31.00 32.00 33.00 34.00 35.00 36.00 37.00 38.00 39.00 40.00 41.00 42.00 43.00 44.00 45.00 46.00 47.00 48.00 49.00 50.00 51.00 52.00 53.00 54.00 55.00 56.00 57.00 58.00 59.00 60.00 61.00 62.00 63.00 64.00 65.00 66.00 67.00 68.00 69.00 70.00 71.00 72.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.53 0.00 0.19 0.33 0.00 0.69 0.00 0.22 0.00 0.00 0.26 0.08 0.00 0.52 0.00 0.00 0.11 0.00 1.17 0.00 0.31 0.00 0.04 0.37 0.09 0.00 0.00 0.00 0.14 0.68 0.00 0.00 0.00 0.39 0.24 0.28 0.01 0.09 0.10 1.12 0.00 0.00 0.49 0.30 0.00 0.18 0.57 0.61 0.00"/>
+        <maxBR time="42.00" position="-1.60,38.06" value="1.17"/>
+        <SGAPSpan values="38.04 49.73 59.85 68.09 74.68 78.66 81.85 84.69 86.86 88.87 91.62 94.63 98.24 101.72 104.66 107.39 110.21 111.55 NA NA NA NA NA NA NA NA NA NA 21.78 20.62 20.46 20.38 19.75 18.60 18.31 17.56 17.29 17.49 16.84 16.31 15.89 15.23 14.80 14.88 14.91 14.55 15.84 15.71 15.13 14.90 15.92 15.23 15.42 15.41 NA NA"/>
+        <minSGAP time="62.00" position="-1.60,-188.52" value="14.55" leader="veh9"/>
+        <TGAPSpan values="NA 21.97 14.27 11.11 9.39 7.83 6.90 7.48 7.14 7.43 7.87 7.89 8.69 8.94 9.38 9.36 9.20 9.52 NA NA NA NA NA NA NA NA NA NA 1.84 1.75 1.79 1.80 1.66 1.57 1.52 1.48 1.54 1.51 1.43 1.35 1.36 1.33 1.32 1.33 1.35 1.33 1.61 1.38 1.31 1.35 1.48 1.29 1.32 1.39 NA NA"/>
+        <minTGAP time="68.00" position="-1.60,-253.36" value="1.29" leader="veh9"/>
+    </globalMeasures>
+</SSMLog>

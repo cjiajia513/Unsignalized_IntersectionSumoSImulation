@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-03-15 12:01:34 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="intersection.net.xml"/>
+        <route-files value="intersection.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="45433"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="155.00" end="179.00" ego="veh151" foe="veh150">
+        <minTTC time="171.00" position="-1.60,129.37" type="2" value="1.30" speed="4.64"/>
+        <maxDRAC time="171.00" position="-1.60,129.37" type="2" value="1.64" speed="4.64"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="171.00" position="-1.60,129.37" type="2" value="7.15" speed="4.64"/>
+    </conflict>
+    <conflict begin="167.00" end="179.00" ego="veh151" foe="veh146">
+        <minTTC time="170.00" position="-1.60,122.02" type="2" value="2.17" speed="8.18"/>
+        <maxDRAC time="169.00" position="-1.60,122.06" type="2" value="2.30" speed="11.58"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="169.00" position="-1.60,122.06" type="2" value="3.98" speed="11.58"/>
+    </conflict>
+    <conflict begin="168.00" end="179.00" ego="veh151" foe="veh145">
+        <minTTC time="169.00" position="-1.60,114.70" type="2" value="2.89" speed="11.58"/>
+        <maxDRAC time="168.00" position="-1.60,114.72" type="2" value="2.02" speed="13.53"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="169.00" position="-1.60,114.70" type="2" value="3.06" speed="11.58"/>
+    </conflict>
+    <conflict begin="174.00" end="179.00" ego="veh151" foe="veh158">
+        <minTTC time="178.00" position="-1.60,136.62" type="3" value="0.75" speed="0.01"/>
+        <maxDRAC time="177.00" position="-1.60,136.63" type="3" value="4.91" speed="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="177.00" position="-1.60,136.63" type="3" value="59.13" speed="0.00"/>
+    </conflict>
+    <conflict begin="177.00" end="179.00" ego="veh151" foe="veh161">
+        <minTTC time="179.00" position="-1.60,136.61" type="3" value="1.73" speed="0.02"/>
+        <maxDRAC time="178.00" position="-1.60,136.62" type="3" value="3.48" speed="0.01"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <minPPET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="178.00" position="-1.60,136.62" type="3" value="7.43" speed="0.01"/>
+    </conflict>
+    <globalMeasures ego="veh151">
+        <timeSpan values="155.00 156.00 157.00 158.00 159.00 160.00 161.00 162.00 163.00 164.00 165.00 166.00 167.00 168.00 169.00 170.00 171.00 172.00 173.00 174.00 175.00 176.00 177.00 178.00 179.00"/>
+        <BRSpan values="0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.60 0.00 1.18 0.00 0.00 0.11 1.94 3.40 3.54 2.57 1.18 0.84 0.00 0.06 0.00 0.00 0.00"/>
+        <maxBR time="171.00" position="-1.60,134.76" value="3.54"/>
+        <SGAPSpan values="7.14 13.47 19.71 25.47 29.55 31.69 31.51 31.28 31.35 29.70 29.75 28.41 26.31 22.03 15.18 9.78 5.52 3.48 2.60 2.56 2.50 2.51 2.51 2.52 2.56"/>
+        <minSGAP time="175.00" position="-1.60,131.76" value="2.50" leader="veh150"/>
+        <TGAPSpan values="NA 5.83 4.12 3.69 3.35 2.95 2.38 2.34 2.46 2.14 2.34 2.16 1.93 1.63 1.31 1.20 1.19 1.68 2.93 47.52 41.63 2026.47 851.98 242.20 147.23"/>
+        <minTGAP time="171.00" position="-1.60,134.76" value="1.19" leader="veh150"/>
+    </globalMeasures>
+</SSMLog>
